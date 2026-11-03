@@ -1,0 +1,90 @@
+/* OWJ Dual Desk — Persian & RTL Styling */
+@charset "UTF-8";
+
+[dir="rtl"], html.owj-rtl, body.owj-rtl {
+  direction: rtl;
+  text-align: right;
+  font-family: "Vazirmatn", "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif !important;
+}
+
+/* Sidebar and Main Layout mirroring */
+html.owj-rtl #sidebar {
+  border-right: none;
+  border-left: 1px solid var(--au-line, rgba(255, 255, 255, 0.08));
+}
+
+html.owj-rtl .identity {
+  flex-direction: row-reverse;
+}
+
+html.owj-rtl .nav-item {
+  flex-direction: row;
+  text-align: right;
+  padding-right: 12px;
+  padding-left: 8px;
+}
+
+html.owj-rtl .nav-item .tile {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+html.owj-rtl .nav-item .state {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+/* Titles and Headers */
+html.owj-rtl .titles {
+  text-align: right;
+}
+
+html.owj-rtl .page-head {
+  flex-direction: row-reverse;
+}
+
+/* Controls */
+html.owj-rtl .seg {
+  flex-direction: row-reverse;
+}
+
+html.owj-rtl .switch {
+  transform: scaleX(-1);
+}
+
+html.owj-rtl .note {
+  border-left: none;
+  border-right: 3px solid var(--note-c, #4b8bff);
+  padding-right: 14px;
+  padding-left: 10px;
+}
+
+html.owj-rtl .card {
+  text-align: right;
+}
+
+html.owj-rtl .bento-grid {
+  direction: rtl;
+}
+
+/* Input Fields and Selects */
+html.owj-rtl input[type="text"],
+html.owj-rtl input[type="password"],
+html.owj-rtl input[type="search"],
+html.owj-rtl select,
+html.owj-rtl textarea {
+  direction: rtl;
+  text-align: right;
+  font-family: "Vazirmatn", sans-serif;
+}
+
+/* Latin numbers and code blocks retain LTR */
+html.owj-rtl code,
+html.owj-rtl pre,
+html.owj-rtl .mono,
+html.owj-rtl .ip-addr,
+html.owj-rtl .mac-addr {
+  direction: ltr;
+  display: inline-block;
+  font-family: "Geist Mono", monospace;
+}

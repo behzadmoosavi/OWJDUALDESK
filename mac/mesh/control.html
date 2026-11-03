@@ -1,11 +1,11 @@
 <!doctype html>
 <!-- TwinDesk — Copyright (C) 2026 inukaasith, Erdoğan Yeşil. GPL-3.0, see LICENSE. -->
-<html lang="en" class="au-mac">
+<html lang="fa" dir="rtl" class="owj-rtl au-mac">
 <head>
   <meta charset="utf-8">
   <base href="../"><!-- multi-device: this page is mac/mesh/control.html; everything else loads from mac/ -->
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:">
-  <title>DuoDesk</title>
+  <title>دوال دسک اوج | OWJ Dual Desk</title>
   <link rel="stylesheet" href="mesh/control.css">
   <link rel="stylesheet" href="mesh/control-pages.css">
   <link rel="stylesheet" href="../shared/phonehub.css">
@@ -21,14 +21,15 @@
   <link rel="stylesheet" href="../shared/pagefx/sharing.css">
   <link rel="stylesheet" href="../shared/pagefx/phone-media.css">
   <link rel="stylesheet" href="../shared/pagefx/support.css">
+  <link rel="stylesheet" href="../shared/owj-rtl.css">
 </head>
 <body>
   <nav id="sidebar" aria-label="Sections">
-    <div class="identity">
-      <div class="app-mark" aria-hidden="true"></div>
-      <div class="who">
-        <div class="app-name">DuoDesk<span class="mesh-pill" title="Multi-device is on: Mesh mode">MESH</span></div>
-        <div class="peer"><span id="peer-dot" class="dot"></span><span id="peer-text">Not connected</span></div>
+    <div class="owj-rtl identity">
+      <div class="owj-rtl app-mark" aria-hidden="true"></div>
+      <div class="owj-rtl who">
+        <div class="owj-rtl app-name">DuoDesk<span class="owj-rtl mesh-pill" title="Multi-device is on: Mesh mode">MESH</span></div>
+        <div class="owj-rtl peer"><span id="peer-dot" class="owj-rtl dot"></span><span id="peer-text">Not connected</span></div>
       </div>
     </div>
     <div id="side-scroll">
@@ -38,30 +39,30 @@
   </nav>
 
   <main id="content">
-    <div class="drag-strip" aria-hidden="true"></div>
-    <section id="banner" class="banner" hidden>
-      <div class="banner-text">
+    <div class="owj-rtl drag-strip" aria-hidden="true"></div>
+    <section id="banner" class="owj-rtl banner" hidden>
+      <div class="owj-rtl banner-text">
         <span id="pair-title"><strong id="pair-name"></strong> wants to pair</span>
-        <span id="pair-code-label" class="code-label">Code</span> <span id="pair-code" class="code"></span>
-        <div id="pair-hint" class="hint"></div>
+        <span id="pair-code-label" class="owj-rtl code-label">Code</span> <span id="pair-code" class="owj-rtl code"></span>
+        <div id="pair-hint" class="owj-rtl hint"></div>
       </div>
-      <div class="banner-actions">
-        <button id="pair-deny" class="btn">Deny</button>
-        <button id="pair-allow" class="btn primary">Allow</button>
+      <div class="owj-rtl banner-actions">
+        <button id="pair-deny" class="owj-rtl btn">Deny</button>
+        <button id="pair-allow" class="owj-rtl btn primary">Allow</button>
       </div>
     </section>
-    <section id="net-banner" class="banner" hidden>
-      <div class="banner-text">
+    <section id="net-banner" class="owj-rtl banner" hidden>
+      <div class="owj-rtl banner-text">
         <span id="net-title"></span>
-        <div id="net-hint" class="hint"></div>
-        <div id="net-form" class="net-form" hidden>
+        <div id="net-hint" class="owj-rtl hint"></div>
+        <div id="net-form" class="owj-rtl net-form" hidden>
           <input id="net-ssid" type="text" placeholder="Hotspot name" autocomplete="off" spellcheck="false" aria-label="Hotspot name">
           <input id="net-pass" type="password" placeholder="Password" autocomplete="off" aria-label="Hotspot password">
         </div>
       </div>
-      <div class="banner-actions">
-        <button id="net-cancel" class="btn">Cancel</button>
-        <button id="net-join" class="btn primary">Join</button>
+      <div class="owj-rtl banner-actions">
+        <button id="net-cancel" class="owj-rtl btn">Cancel</button>
+        <button id="net-join" class="owj-rtl btn primary">Join</button>
       </div>
     </section>
     <div id="pages"></div>
@@ -110,5 +111,6 @@
   <script src="../shared/pagefx/sharing.js"></script>
   <script src="../shared/pagefx/phone-media.js"></script>
   <script src="../shared/pagefx/support.js"></script>
+  <script src="../shared/owj-fa.js"></script>
 </body>
 </html>

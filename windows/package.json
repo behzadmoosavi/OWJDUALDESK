@@ -1,17 +1,17 @@
 {
-  "name": "macshare-win",
-  "productName": "DuoDesk",
+  "name": "owj-dualdesk-win",
+  "productName": "OWJ Dual Desk",
   "version": "2.5.0",
-  "description": "DuoDesk for Windows: pair with a Mac, view its screen, share mouse, keyboard and clipboard.",
+  "description": "OWJ Dual Desk for Windows (دوال دسک اوج): pair with a Mac, view its screen, share mouse, keyboard and clipboard.",
   "license": "GPL-3.0",
-  "author": "0xCodez (https://github.com/0xCodez)",
-  "homepage": "https://github.com/0xCodez/DuoDesk",
+  "author": "Seyed Behzad Moosavi / OWJ (https://github.com/behzadmoosavi)",
+  "homepage": "https://github.com/behzadmoosavi/OWJDUALDESK",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/0xCodez/DuoDesk.git"
+    "url": "git+https://github.com/behzadmoosavi/OWJDUALDESK.git"
   },
   "bugs": {
-    "url": "https://github.com/0xCodez/DuoDesk/issues"
+    "url": "https://github.com/behzadmoosavi/OWJDUALDESK/issues"
   },
   "private": true,
   "main": "main.js",
