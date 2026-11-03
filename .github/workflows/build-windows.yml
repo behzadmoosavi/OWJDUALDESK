@@ -78,7 +78,7 @@ jobs:
       - name: Upload the x64 installer
         uses: actions/upload-artifact@v4
         with:
-          name: duodesk-windows-x64
+          name: owj-dualdesk-windows-x64
           path: |
             windows/dist/*.exe
             !windows/dist/*-arm64.exe
@@ -86,7 +86,7 @@ jobs:
       - name: Upload the arm64 installer
         uses: actions/upload-artifact@v4
         with:
-          name: duodesk-windows-arm64
+          name: owj-dualdesk-windows-arm64
           path: windows/dist/*-arm64.exe
 
       # Straight onto the release, no download and re-upload.

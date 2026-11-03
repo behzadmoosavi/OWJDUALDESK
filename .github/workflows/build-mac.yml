@@ -130,7 +130,7 @@ jobs:
       - name: Upload DMG artifact
         uses: actions/upload-artifact@v4
         with:
-          name: duodesk-macos-dmg
+          name: owj-dualdesk-macos-dmg
           path: mac/dist/*.dmg
 
       # Straight onto the release, no download and re-upload.
